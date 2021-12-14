@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(3, 5, 44);
+}
+a:hover{
+    background-color:white ;
+    color:rgb(3, 5, 44);
+}
+#cent{
+    text-align:center;
+    padding-top: 20px;
+}
+img{
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100px;
+}
+#bin{
+    text-align: center;
+    outline-color: darkslategrey;
+    padding-top: 100px;
+}
+#title{
+    color: whitesmoke;
+    text-align: center;
+    padding:10px;
+}
+#qut{
+    color: rgb(1, 1, 43);
+    padding: 40px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(4, 1, 34), 0 0 20px #fff, 0 0 30px #100244, 0 0 40px #100244, 
+      0 0 50px #100244, 0 0 60px #100244, 0 0 70px #100244;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(4, 1, 34), 0 0 30px #4b23e9, 0 0 40px #4b23e9, 0 0 50px #4b23e9,
+       0 0 60px #4b23e9, 0 0 70px #4b23e9, 0 0 80px #4b23e9;
+    }
+  }
+
+  body{
+    background-image:url("kk.jpg");
+    background-size: cover;
+  }
