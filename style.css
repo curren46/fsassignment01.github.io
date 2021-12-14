@@ -54,6 +54,6 @@ img{
 
   body{
     background-image:url("kk.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
   }
